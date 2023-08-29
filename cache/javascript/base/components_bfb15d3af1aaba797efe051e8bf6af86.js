@@ -3073,8 +3073,8 @@
         this._super("initialize", [options]);
 
 
-        //log this point
-        console.log(this);
+        // //log this point
+        // console.log(this);
     }
 }) },
 "customMy-view": {"controller": ({

@@ -2131,7 +2131,7 @@
     array (
       'name' => 'custom_dropdown_c',
       'vname' => 'LBL_CUSTOM_DROPDOWN_C',
-      'type' => 'enum',
+      'type' => 'Customdropdownfield',
       'studio' => 'visible',
       'len' => 100,
       'required' => false,
@@ -2142,7 +2142,7 @@
       'enforced' => false,
       'comments' => '',
       'help' => '',
-      'source' => 'custom_fields',
+      'dbType' => 'varchar',
     ),
   ),
   'indices' => 

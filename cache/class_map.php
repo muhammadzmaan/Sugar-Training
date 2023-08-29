@@ -1,5 +1,5 @@
 <?php
-// created: 2023-08-29 14:44:48
+// created: 2023-08-29 17:26:57
 $class_map = array (
   'CustomTemplateHighlightfield' => false,
   'CustomModuleInstaller' => false,
@@ -61,6 +61,25 @@ $class_map = array (
   'CustomSugarOAuth2Server' => false,
   'CustomSugarOAuth2StorageBase' => false,
   'Sugarcrm\\Sugarcrm\\custom\\Portal\\Session' => false,
+  'CustomSugarController' => false,
+  'CustomHomeViewSidecar' => false,
+  'HomeViewSidecar' => false,
+  'CustomViewSidecar' => false,
+  'Smarty_Internal_Compile_Sugar_Getjspath' => false,
+  'Smarty_Internal_Compile_Sugar_Getscript' => false,
+  'Sugarcrm\\Sugarcrm\\custom\\Security\\Validator\\Constraints\\Language' => false,
+  'Sugarcrm\\Sugarcrm\\custom\\Security\\Validator\\Constraints\\Guid' => false,
+  'CustomACLRolesViewClassic' => false,
+  'ACLRolesViewClassic' => false,
+  'CustomViewClassic' => false,
+  'Sugarcrm\\Sugarcrm\\custom\\Security\\Csrf\\CsrfAuthenticator' => false,
+  'Smarty_Internal_Compile_Sugar_Getimagepath' => false,
+  'Smarty_Internal_Compile_Sugar_Csrf_Form_Token' => false,
+  'Smarty_Internal_Compile_Sugar_Action_Menu' => false,
+  'Smarty_Internal_Compile_Html_Options' => false,
+  'Sugarcrm\\Sugarcrm\\custom\\Security\\Validator\\Constraints\\Sql\\OrderDirection' => false,
+  'Smarty_Internal_Compile_Sugar_Fetch' => false,
+  'Smarty_Internal_Compile_Sugar_Phone' => false,
   'CustomDashboardsApiHelper' => false,
   'CustomMeetingsApiHelper' => false,
   'CustomCallsApiHelper' => false,
@@ -70,5 +89,7 @@ $class_map = array (
   'CustomContactsApiHelper' => false,
   'CustomUsersApiHelper' => false,
   'CustomEmailsHookHandler' => false,
+  'Sugarcrm\\Sugarcrm\\custom\\SearchEngine\\Engine\\Elastic' => false,
+  'Sugarcrm\\Sugarcrm\\custom\\Elasticsearch\\Container' => false,
   'CustomCasesApiHelper' => false,
 );
