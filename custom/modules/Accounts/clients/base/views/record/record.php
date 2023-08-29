@@ -244,6 +244,9 @@ array (
               ),
               13 => 
               array (
+                'name' => 'custom_dropdown_c',
+                'studio' => 'visible',
+                'label' => 'LBL_CUSTOM_DROPDOWN_C',
               ),
             ),
           ),
