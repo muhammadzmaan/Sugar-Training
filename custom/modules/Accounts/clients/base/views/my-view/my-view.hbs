@@ -1,0 +1,76 @@
+<style>
+h1{
+    color:#0a1101;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tcenter {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+thead th {
+    padding: 10px 15px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #a5a5a5;
+}
+
+td {
+    padding: 10px 15px;
+}
+
+
+tbody tr:hover {
+    background-color: #8bcf32;
+    cursor: pointer;
+}
+
+</style>
+
+<div class="tcenter">
+    <h1>Account List</h1>
+    {{log this}}
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Account Type</th>
+                <th>Date Created</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each data}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{account_type}}</td>
+                <td>{{date_entered}}</td>
+            </tr>
+            {{/each}}   
+            </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,4 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_CASES_ACCOUNTS_2_FROM_ACCOUNTS_TITLE'] = 'New Accounts Rel';
+$mod_strings['LBL_CASES_ACCOUNTS_2_FROM_CASES_TITLE'] = 'New Accounts Rel';

@@ -1,0 +1,47 @@
+<style>
+    h1{
+        margin-top: 30px;
+    }
+</style>
+
+<h1></h1>
+
+<div class="record">
+    {{!-- {{#each this.meta.panels}}
+    c1
+        {{#unless header}}
+        c2
+            {{#each grid}}
+            c3
+                <div class="row-fluid {{../name}}{{#if ../hide}}{{#if ../../../../view.hidePanel}} hide{{/if}}{{/if}}">
+                    {{#each this}}
+                        c4
+                        {{#if name}}
+                        c5
+                            <div class="{{#if ../../../labelsOnTop}}span{{span}} {{else}}span{{cellSpan}} {{/if}}record-cell{{#if cell_css_class}} {{cell_css_class}}{{/if}}" data-type="{{type}}" data-name="{{name}}">
+                                {{decoratedField 'record-decor'  ../../../../../this model=../../../../../this.model template='detail'}}
+                            </div>
+                        {{else}}
+                            <div class="span{{cellSpan}} record-cell filler-cell">
+                                {{#unless ../../../labelsOnTop}}<div class="labels-on-side">{{/unless}}
+                                    <div class="record-cell span{{cellSpan}}"></div>
+                                {{#unless ../../../labelsOnTop}}</div>{{/unless}}
+                            </div>
+                        {{/if}}
+                    {{/each}}
+                </div>
+            {{/each}}
+        {{/unless}}
+    {{/each}} --}}
+
+    {{#each this.meta.fields}}
+     <div class="{{#if ../labelsOnTop}}span{{span}} {{else}}span{{cellSpan}} {{/if}}record-cell{{#if cell_css_class}} {{cell_css_class}}{{/if}}" data-type="{{type}}" data-name="{{name}}">
+            {{decoratedField 'record-decor' ../this model= ../this.model template='detail'}}
+    </div>
+    {{/each}}
+</div>
+
+
+<button class="btn btn-danger cancel-button">Cancel</button>
+<button class="btn btn-primary alert-button">Alert</button>
+
