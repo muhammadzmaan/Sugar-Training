@@ -228,25 +228,29 @@ array (
               ),
               10 => 
               array (
-                'name' => 'accounts_accounts_1_name',
-                'span' => 12,
-              ),
-              11 => 
-              array (
                 'name' => 'cases_accounts_oto_name',
                 'label' => 'LBL_CASES_ACCOUNTS_OTO_FROM_CASES_TITLE',
                 'span' => 12,
               ),
-              12 => 
+              11 => 
               array (
                 'name' => 'cases_accounts_om_name',
                 'label' => 'LBL_CASES_ACCOUNTS_OM_FROM_CASES_TITLE',
               ),
-              13 => 
+              12 => 
               array (
                 'name' => 'custom_dropdown_c',
                 'studio' => 'visible',
                 'label' => 'LBL_CUSTOM_DROPDOWN_C',
+              ),
+              13 => 
+              array (
+                'name' => 'function_dropdown_c',
+                'studio' => 'visible',
+                'label' => 'LBL_FUNCTION_DROPDOWN_C',
+              ),
+              14 => 
+              array (
               ),
             ),
           ),
