@@ -1,0 +1,36 @@
+<style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>Name</th>
+            <th>Due Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data}}
+        <tr>
+            <td>{{counter @index}}</td>
+              <td><a href="{{buildHref id}}">{{name}}</a></td>
+            <td>{{date_due}}</td>
+        </tr>
+        {{/each}}   
+    </tbody>
+</table>
