@@ -42,6 +42,6 @@ $viewdefs[$module_name]['base']['menu']['header'] = array(
         'acl_module' => $module_name,
         'icon' => 'sicon-reports',
         'route' => '#' . $module_name . '/layout/my-layout',
-    ),
-   
+    ), 
+      
 );

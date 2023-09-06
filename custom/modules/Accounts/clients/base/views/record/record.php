@@ -213,44 +213,57 @@ array (
               2 => 'parent_name',
               3 => 'account_type',
               4 => 'business_center_name',
-              5 => 'service_level',
-              6 => 'assigned_user_name',
-              7 => 'phone_office',
-              8 => 
+              5 => 
+              array (
+                'name' => 'service_level',
+              ),
+              6 => 
+              array (
+              ),
+              7 => 
+              array (
+              ),
+              8 => 'assigned_user_name',
+              9 => 'phone_office',
+              10 => 
               array (
                 'name' => 'tag',
                 'span' => 6,
               ),
-              9 => 
+              11 => 
               array (
                 'name' => 'contacts_accounts_1_name',
                 'span' => 6,
               ),
-              10 => 
+              12 => 
               array (
                 'name' => 'cases_accounts_oto_name',
                 'label' => 'LBL_CASES_ACCOUNTS_OTO_FROM_CASES_TITLE',
                 'span' => 12,
               ),
-              11 => 
+              13 => 
               array (
                 'name' => 'cases_accounts_om_name',
                 'label' => 'LBL_CASES_ACCOUNTS_OM_FROM_CASES_TITLE',
               ),
-              12 => 
+              14 => 
               array (
                 'name' => 'custom_dropdown_c',
                 'studio' => 'visible',
                 'label' => 'LBL_CUSTOM_DROPDOWN_C',
               ),
-              13 => 
+              15 => 
               array (
                 'name' => 'function_dropdown_c',
                 'studio' => 'visible',
                 'label' => 'LBL_FUNCTION_DROPDOWN_C',
               ),
-              14 => 
+              16 => 
               array (
+                'readonly' => false,
+                'name' => 'api_response_field_c',
+                'studio' => 'visible',
+                'label' => 'LBL_API_RESPONSE_FIELD',
               ),
             ),
           ),
