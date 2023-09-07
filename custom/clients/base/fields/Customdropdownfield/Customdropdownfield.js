@@ -10,7 +10,6 @@
     },
     loadEnumOptions: function(fetch, callback) {
 
-        console.log("it is this",this);
         var self = this,
     
         meta = app.metadata.getModule(this.module, 'fields'),
