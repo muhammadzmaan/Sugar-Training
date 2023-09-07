@@ -219,46 +219,58 @@ array (
               ),
               6 => 
               array (
+                'related_fields' => 
+                array (
+                  0 => 'currency_id',
+                  1 => 'base_rate',
+                ),
+                'readonly' => false,
+                'name' => 'total_sales_c',
+                'label' => 'LBL_TOTAL_SALES',
+                'span' => 12,
               ),
               7 => 
               array (
               ),
-              8 => 'assigned_user_name',
-              9 => 'phone_office',
-              10 => 
+              8 => 
+              array (
+              ),
+              9 => 'assigned_user_name',
+              10 => 'phone_office',
+              11 => 
               array (
                 'name' => 'tag',
                 'span' => 6,
               ),
-              11 => 
+              12 => 
               array (
                 'name' => 'contacts_accounts_1_name',
                 'span' => 6,
               ),
-              12 => 
+              13 => 
               array (
                 'name' => 'cases_accounts_oto_name',
                 'label' => 'LBL_CASES_ACCOUNTS_OTO_FROM_CASES_TITLE',
                 'span' => 12,
               ),
-              13 => 
+              14 => 
               array (
                 'name' => 'cases_accounts_om_name',
                 'label' => 'LBL_CASES_ACCOUNTS_OM_FROM_CASES_TITLE',
               ),
-              14 => 
+              15 => 
               array (
                 'name' => 'custom_dropdown_c',
                 'studio' => 'visible',
                 'label' => 'LBL_CUSTOM_DROPDOWN_C',
               ),
-              15 => 
+              16 => 
               array (
                 'name' => 'function_dropdown_c',
                 'studio' => 'visible',
                 'label' => 'LBL_FUNCTION_DROPDOWN_C',
               ),
-              16 => 
+              17 => 
               array (
                 'readonly' => false,
                 'name' => 'api_response_field_c',

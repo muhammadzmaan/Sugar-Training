@@ -13,7 +13,7 @@ $dictionary["tasks_contacts_onemany"] = array (
       'rhs_module' => 'Contacts',
       'rhs_table' => 'contacts',
       'rhs_key' => 'task_id',
-      'relationship_tidpe' => 'one-to-many',
+      'relationship_type' => 'one-to-many',
     ),
   ),
 );

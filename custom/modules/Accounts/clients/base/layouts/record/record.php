@@ -18,6 +18,9 @@ $viewdefs['Accounts']['base']['layout']['record'] = array(
                                     'primary' => true,
                                 ),
                                 array(
+                                    'view' => 'recent-sale',
+                                ),
+                                array(
                                     'view' => 'custom-stuff',
                                 ),
                                 array(

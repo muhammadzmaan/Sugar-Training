@@ -11,7 +11,7 @@ class MyCustomApi extends SugarApi
                 
                 'reqType' => 'GET',
 
-                'noLoginRequired' => true,
+                'noLoginRequired' => false,
 
                 'path' => array('Accounts','GetAccounts'),
 
